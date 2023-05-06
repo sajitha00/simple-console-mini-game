@@ -51,15 +51,15 @@ if choose==0 and random==0:
 elif choose==0 and random==1:
     print("You lose")
 elif choose==0 and random==2:
-    print("Throw again")
+    print("Equal throw again")
 elif choose==1 and random==0:
     print("You lose")
 elif choose==1 and random==1:
-    print("Throw again")
+    print("Equal throw again")
 elif choose==1 and random==2:
     print("You win")
 elif choose==2 and random==0:
-    print("throw again")
+    print("Equal throw again")
 elif choose==2 and random==1:
     print("You win")
 elif choose==2 and random==2:
