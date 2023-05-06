@@ -26,6 +26,10 @@ scissors = '''
 ---.__(___)
 '''
 choose=int(input("What do you choose? type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
+if choose >= 3 or choose < 0:
+    print("You typed an invalid number, you lose!")
+    exit()
+
 if choose == 0:
     print(rock)
 elif choose == 1:
@@ -60,4 +64,3 @@ elif choose==2 and random==1:
     print("You win")
 elif choose==2 and random==2:
     print("You lose")
-
